@@ -6,7 +6,7 @@ My first landing with Gulp, SASS, JQuery, Flickity and Isotope
 
 In order to start working with project, you must:
 
-###Check for instaled Node.js & npm
+### Check for instaled Node.js & npm
 ```
 node -v
 ```
