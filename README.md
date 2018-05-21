@@ -10,12 +10,14 @@ In order to start working with project, you must:
 ```
 node -v
 ```
+```
 npm -v
 ```
 
-#### Install dependencies
+### Install dependencies
 ```
 npm gulp
+```
 ```
 npm i gulp --save-dev
 ```
