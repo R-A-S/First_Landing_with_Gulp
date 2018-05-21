@@ -1,0 +1,97 @@
+.footer
+  color: #ffffffcc
+  width: 100%
+  position: relative
+  background-color: #21b697
+  .footer-top-line
+    height: 5px
+    width: 100%
+    background-color: #062033
+    position: absolute
+  &-body
+    display: flex
+    justify-content: space-between
+    padding-top: 115px
+    padding-bottom: 125px
+    &__section
+      width: 23%
+
+
+
+.footer-info
+  &__logo
+    padding-bottom: 44px
+  &__text
+    +rfs(13px)
+    line-height: 1.85
+
+.footer-subscribe
+  &__title
+    padding-bottom: 44px
+    +rfs(14px)
+    font-weight: bold
+    line-height: 1.71
+    color: #ffffffcc
+  &__input
+    border: none
+    background: none
+    border: 2px solid #ffffffcc
+    border-radius: 5px !important
+    color: #ffffffcc
+    +rfs(19px)
+    width: 90%
+    height: 46px
+    margin-bottom: 24px
+  span
+    position: relative
+  button
+    background: none
+    border: none
+    position: absolute
+    right: 10px
+    top: 1px
+  &__text
+    +rfs(13px)
+    line-height: 1.85
+
+.footer-explore
+  &__title
+    padding-bottom: 44px
+    +rfs(14px)
+    font-weight: bold  
+  &__list-container
+    display: flex
+    flex-wrap: wrap
+    +rfs(13px)
+  &__list    
+    flex-direction: column
+    justify-content: space-between
+    line-height: 2.46
+    margin-right: 10%
+    a
+      text-decoration: none
+      &:active,&:visited
+        color: #ffffffcc
+
+
+.footer-rigts
+  position: relative
+  display: flex
+  flex-direction: column
+  top: 61px
+  +rfs(13px)
+  &__created
+    position: relative
+    margin-bottom: 70px
+    &:before
+      position: absolute
+      content: ''
+      height: 39px
+      width: 1px
+      left: -10px
+      background-color: #062033
+      opacity: 0.3
+    span
+      color: #062033
+  &__sign
+    color: #062033

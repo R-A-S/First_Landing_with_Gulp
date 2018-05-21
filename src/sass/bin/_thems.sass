@@ -1,0 +1,62 @@
+html
+  scroll-behavior: smooth
+
+.title-section
+	display: flex
+	justify-content: space-between
+	align-items: center
+	flex-direction: column
+	font-size: 28px;
+	+rfs(28px)
+	text-transform: uppercase
+	font-weight: 800
+	letter-spacing: 0.6px
+	text-align: center
+	color: #0eb493
+	margin-bottom: 51px
+	span
+		position: relative
+		margin-top: 20px
+		&:after,
+		&:before
+			position: absolute
+			display: inline-block
+			content: ''
+			width: 90px	
+			height: 1px
+			background-color: #062033
+			opacity: 0.2
+			top: 50%
+			transform: translateY(-50%)
+		&:after
+			left: 186%
+		&:before
+			right: 186%
+
+		img
+			display: block
+
+.subtitle-section
+	opacity: 0.8
+	+rfs(18px)
+	font-size: 18px
+	font-weight: 600
+	line-height: 1.33
+	text-align: center
+	color: rgba(6, 32, 51, 0.8)
+	display: block
+	margin-left: auto
+	margin-right: auto
+	width: 84%
+	word-spacing: 1.1px
+	margin-bottom: 48px
+
+.w100
+	width: 100%
+
+.w50
+	width: 48%
+
+
+
+			
