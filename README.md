@@ -1,5 +1,5 @@
-# First_Landing_with_Gulp
-My first landing with Gulp, SASS, JQuery, Flickity and Isotope
+# Landing_with_Gulp
+Gulp, SASS, JQuery, Flickity and Isotope
 
 
 ## Installation
